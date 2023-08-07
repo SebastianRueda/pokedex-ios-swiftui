@@ -16,13 +16,14 @@ struct PokemonListView: View {
             GridItem(.flexible())
         ]
         
+        let padding: CGFloat = 8
         ScrollView {
-            LazyVGrid(columns: columns, spacing: 8) {
+            LazyVGrid(columns: columns, spacing: padding) {
                 ForEach(pokemons) { pokemon in
                     PokemonItemView(pokemon: pokemon)
                 }
             }
-            .padding(8)
+            .padding(padding)
         }
     }
 }
