@@ -14,6 +14,7 @@
 		0480CF4D2A81757700E01594 /* pokedex_swiftuiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0480CF4C2A81757700E01594 /* pokedex_swiftuiTests.swift */; };
 		0480CF572A81757700E01594 /* pokedex_swiftuiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0480CF562A81757700E01594 /* pokedex_swiftuiUITests.swift */; };
 		0480CF592A81757700E01594 /* pokedex_swiftuiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0480CF582A81757700E01594 /* pokedex_swiftuiUITestsLaunchTests.swift */; };
+		0480CF682A817A2D00E01594 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0480CF672A817A2D00E01594 /* Pokemon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		0480CF522A81757700E01594 /* pokedex-swiftuiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pokedex-swiftuiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0480CF562A81757700E01594 /* pokedex_swiftuiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokedex_swiftuiUITests.swift; sourceTree = "<group>"; };
 		0480CF582A81757700E01594 /* pokedex_swiftuiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokedex_swiftuiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0480CF672A817A2D00E01594 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		0480CF3A2A81757600E01594 /* pokedex-swiftui */ = {
 			isa = PBXGroup;
 			children = (
+				0480CF652A8176E700E01594 /* data */,
 				0480CF3B2A81757600E01594 /* pokedex_swiftuiApp.swift */,
 				0480CF3D2A81757600E01594 /* ContentView.swift */,
 				0480CF3F2A81757700E01594 /* Assets.xcassets */,
@@ -125,6 +128,22 @@
 				0480CF582A81757700E01594 /* pokedex_swiftuiUITestsLaunchTests.swift */,
 			);
 			path = "pokedex-swiftuiUITests";
+			sourceTree = "<group>";
+		};
+		0480CF652A8176E700E01594 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				0480CF662A8179CE00E01594 /* model */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		0480CF662A8179CE00E01594 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				0480CF672A817A2D00E01594 /* Pokemon.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +278,7 @@
 			files = (
 				0480CF3E2A81757600E01594 /* ContentView.swift in Sources */,
 				0480CF3C2A81757600E01594 /* pokedex_swiftuiApp.swift in Sources */,
+				0480CF682A817A2D00E01594 /* Pokemon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
