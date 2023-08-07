@@ -17,8 +17,14 @@ struct PokemonItemView: View {
                 .padding(.bottom, 12)
             Text(pokemon.name)
         }
+        .frame(
+            minWidth: 0,
+            maxWidth: .infinity,
+            minHeight: 0,
+            maxHeight: .infinity
+        )
         .padding(16.0)
-        .cornerRadius(4.0)
+        .cornerRadius(8)
         .background(.green)
     }
 }

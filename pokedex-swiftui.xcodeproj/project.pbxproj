@@ -16,6 +16,7 @@
 		0480CF592A81757700E01594 /* pokedex_swiftuiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0480CF582A81757700E01594 /* pokedex_swiftuiUITestsLaunchTests.swift */; };
 		0480CF682A817A2D00E01594 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0480CF672A817A2D00E01594 /* Pokemon.swift */; };
 		0480CF6F2A817BF100E01594 /* PokemonItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0480CF6E2A817BF100E01594 /* PokemonItemView.swift */; };
+		0480CF712A8182A100E01594 /* PokemonListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0480CF702A8182A100E01594 /* PokemonListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		0480CF582A81757700E01594 /* pokedex_swiftuiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokedex_swiftuiUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0480CF672A817A2D00E01594 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		0480CF6E2A817BF100E01594 /* PokemonItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonItemView.swift; sourceTree = "<group>"; };
+		0480CF702A8182A100E01594 /* PokemonListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				0480CF6E2A817BF100E01594 /* PokemonItemView.swift */,
+				0480CF702A8182A100E01594 /* PokemonListView.swift */,
 			);
 			path = ui;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0480CF712A8182A100E01594 /* PokemonListView.swift in Sources */,
 				0480CF3E2A81757600E01594 /* ContentView.swift in Sources */,
 				0480CF3C2A81757600E01594 /* pokedex_swiftuiApp.swift in Sources */,
 				0480CF682A817A2D00E01594 /* Pokemon.swift in Sources */,
