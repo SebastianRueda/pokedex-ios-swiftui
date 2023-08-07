@@ -15,6 +15,7 @@ struct ContentView: View {
             Pokemon(name: "name10", image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png")
         ]
         PokemonListView(pokemons: pokemons)
+            .background(.green.opacity(0.4))
     }
 }
 
